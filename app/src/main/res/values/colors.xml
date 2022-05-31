@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="text">#9BA3EB</color>
+    <color name="bar">#242F9B</color>
+    <color name="background">#DBDFFD</color>
+    <color name="button">#646FD4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash">#647687</color>
+    <color name="grey">#73777B</color>
+    <color name="lightgrey">#DDDDDD</color>
+</resources>

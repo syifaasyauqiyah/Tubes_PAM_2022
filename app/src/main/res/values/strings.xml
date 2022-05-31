@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ghibli Movies</string>
+    <string name="splash">My Ghibli</string>
+    <string name="search">search</string>
+    <string name="judul">judul</string>
+    <string name="judulOri">judul original</string>
+    <string name="judulOriRom">judul original romanization</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="direktor">direktor</string>
+    <string name="produser">produser</string>
+    <string name="rilis">rilis</string>
+    <string name="skor">skor</string>
+    <string name="detail">detail</string>
+</resources>

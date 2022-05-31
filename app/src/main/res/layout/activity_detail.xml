@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:id="@+id/detail_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/judulOri"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/judulOri"
+        app:layout_constraintEnd_toEndOf="@+id/img_item_photo"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
+
+    <TextView
+        android:id="@+id/judulOriRom"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/judulOriRom"
+        app:layout_constraintEnd_toEndOf="@+id/judulOri"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/judulOri"
+        app:layout_constraintTop_toBottomOf="@+id/judulOri" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/deskripsi"
+        app:layout_constraintEnd_toEndOf="@+id/produser"
+        app:layout_constraintStart_toStartOf="@+id/produser"
+        app:layout_constraintTop_toBottomOf="@+id/produser" />
+
+    <TextView
+        android:id="@+id/direktor"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/direktor"
+        app:layout_constraintEnd_toEndOf="@+id/skor"
+        app:layout_constraintStart_toStartOf="@+id/skor"
+        app:layout_constraintTop_toBottomOf="@+id/skor" />
+
+    <TextView
+        android:id="@+id/produser"
+        style="@style/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/produser"
+        app:layout_constraintEnd_toEndOf="@+id/direktor"
+        app:layout_constraintStart_toStartOf="@+id/direktor"
+        app:layout_constraintTop_toBottomOf="@+id/direktor" />
+
+    <TextView
+        android:id="@+id/rilis"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/rilis"
+        app:layout_constraintEnd_toEndOf="@+id/judulOriRom"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/judulOriRom"
+        app:layout_constraintTop_toBottomOf="@+id/judulOriRom" />
+
+    <TextView
+        android:id="@+id/skor"
+        style="@style/child"
+        android:layout_marginTop="8dp"
+        android:text="@string/skor"
+        app:layout_constraintEnd_toEndOf="@+id/rilis"
+        app:layout_constraintStart_toStartOf="@+id/rilis"
+        app:layout_constraintTop_toBottomOf="@+id/rilis" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
