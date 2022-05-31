@@ -10,6 +10,10 @@ Aplikasi akan menampilkan list film dari Studio Ghibli, dengan menggunakan baseU
 - menggunakan Retrofit : sebagai networking
 - menggunakan uses permission : android.permission.INTERNET
 
+## Instalasi
+- unduh file .apk yang ada pada file zip
+- lalu instal seperti biasa pada smartphone
+
 ## Dependensi
 dependensi yang digunakan :
 
