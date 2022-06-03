@@ -11,7 +11,7 @@ Aplikasi akan menampilkan list film dari Studio Ghibli, dengan menggunakan baseU
 - menggunakan uses permission : android.permission.INTERNET
 
 ## Instalasi
-- unduh file .apk yang ada pada file zip
+- unduh file .apk yang ada
 - lalu instal seperti biasa pada smartphone
 
 ## Dependensi
